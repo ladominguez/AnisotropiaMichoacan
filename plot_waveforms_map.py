@@ -25,7 +25,9 @@ titles = {
 '2024-07-11T02:13:17' : 'Philippines',
 '2024-07-10T04:55:41' : 'Antartica South Africa',
 '2024-08-03T04:20:26' : 'Philippines',
-'2024-05-05T18:33:10' : 'Banda Sea'
+'2024-05-05T18:33:10' : 'Banda Sea',
+'2024-05-26T20:47:10' : 'Tonga',
+'2024-08-25T23:29:07' : 'Tonga'
 }
 
 def plot_map(sac_files, evdp):
@@ -127,7 +129,7 @@ def plot_waveforms(stream, evdp,zoom=False):
 
 if __name__ == '__main__':
 
-    with open('catalog_Tancitaro.txt') as f:
+    with open('catalog_Tonga.txt') as f:
         lines = f.readlines()
 
     for line in lines:

@@ -15,3 +15,19 @@ for north in $(find ./20* -name "*HN.sac" | cut -c 3- );do
 	echo "END"
 	echo " "
 done
+
+echo "sac << END"
+echo "read 2*/*HHR*sac"
+echo "ch kcmpnm HHR"
+echo "wh"
+echo "quit"
+echo "END"
+echo ""
+
+echo "sac << END"
+echo "read 2*/*HHT*sac"
+echo "ch kcmpnm HHT"
+echo "wh"
+echo "quit"
+echo "END"
+echo ""
